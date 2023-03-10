@@ -1,0 +1,85 @@
+main{
+    background-image: url(../images/backg.jpg);
+    background-size: cover;
+    /* background-position: 100% 100%; */
+}
+
+.mainH1{
+    font-size: 3.5rem;
+}
+
+.mainUl li a ,  #closeIcon{
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.mainUl li a:hover , #closeIcon:hover{
+    color:rgb(165,47,45) !important;
+}
+
+.mainList{
+    width: 20%;
+    left: -20%;
+    background-color: rgb(65,70,88)
+}
+.mainClick{
+    cursor: pointer;
+}
+.open{
+    top:50vh;
+    left:0
+}
+
+.label div{
+    background-color: rgb(230,130,133);
+}
+.section2Label{
+    width:65%
+}
+.bg-dark-subtle{
+    display: none;
+}
+.labelH2{
+    cursor: pointer;
+}
+
+/* section3 */
+
+.section3Cont{
+    background-image: url("../images/images1.jpg");
+    background-size: cover;
+    background-position: 100%;
+    background-color: rgba(165, 42, 42, 0.9);
+    background-blend-mode: overlay;
+}
+
+/* section4 */
+.formMessage input , .formMessage textarea{
+    border: solid 1px rgb(190, 188, 188) ;
+}
+
+.formMessage input:focus , .formMessage textarea:focus{
+    outline: none;
+    border: solid 1px #09c !important;
+    font-size: 4rem;
+    color: rgb(61, 60, 60);
+}
+.section4Logos{
+    width: 60%;
+}
+.section4Logos div{
+    height: 40px;
+    width:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.section4Logos div:hover{
+    background-color: rgba(216, 56, 56, 0.9);
+    color: white !important;
+    border: none !important;
+}
+
+#closeIcon{
+    cursor: pointer;
+}
